@@ -1,0 +1,334 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='200' viewBox='3 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%23514f3a' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+
+.expand{
+	width: 100%
+}
+
+.main-orange{
+	background-color: #FFA500;
+}
+.strong-yellow{
+	background-color: #ffb900;
+}
+
+.soft-yellow{
+	background-color: #f1d40e;
+}
+.strong-red{
+	background-color:#8c0000;
+
+}
+
+.image-size{
+	height: 400px;
+	width:auto;
+}
+
+.center-text {
+       text-align: center;   
+ }
+
+
+.standard-width{
+	width: 80%;
+	
+}
+
+.special-width{
+	width: 75%;
+}
+
+.main-entries{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+.options-grid{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(110px, 490px));
+	justify-content: center;
+
+}
+
+.news-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(110px, 300px));
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	
+}
+
+
+@media only screen and (max-width: 1200px){
+    .news-grid{
+        display: grid;
+		grid-template-columns: 100%;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+    }
+
+}
+
+.video-display{
+	display: flex;
+	justify-content: center;
+}
+
+
+.main-div-margins{
+	margin: 0px 0px 30px 0px;
+}
+
+.flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.half-60{
+	width: 60%;
+}
+
+.half-40{
+	width: 40%;
+}
+
+.organize-column{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+}
+
+.btn-margin{
+	margin-left: 82px;
+	margin-right:82px;
+
+}
+
+.noticias-btn-margin{
+	margin-left: 70%;
+}
+
+.btn-search{
+	margin: 1% 20%;
+}
+
+.adjust-padding{
+padding: 10px;
+}
+
+.logo-size{
+	height: 100px;
+	width:auto;
+
+}
+
+.border-blue{
+	border-top: 4px solid  #2772d8;
+}
+
+.border-red{
+	border-top: 4px solid  #dc3523;
+}
+
+.border-bottom-orange{
+	border-bottom: 4px solid #FFA500;
+	border-top: 4px solid #FFA500;
+}
+
+.bottom-top-yellow{
+	border-bottom: 4px solid #eaee0e;
+	border-top: 4px solid #eaee0e;
+}
+
+
+
+.border-green{
+	border-top: 4px solid #5ec738;
+}
+
+.border-white{
+	border-top: 4px solid white;
+}
+.border-yellow{
+	border-top: 4px solid  #eaee0e;
+}
+
+.border-orange{
+	border-top: 4px solid  #FFA500;
+}
+.nav-margins{
+	margin: 0px 0px 10px 0px;
+}
+
+.navbar{
+	padding: 0px;
+}
+
+.nav-flex{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.title{
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 180%;
+  margin-left: 30px;
+  }
+
+  
+ .center-div{
+ 	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+ }
+ .dropdown-item {
+    padding: .8rem 1.5rem;
+
+}
+
+.rounded-border{
+	border-radius: 20%;
+}
+
+.borders-green{
+	border: 4px solid #5ec738;
+	background-color: #5ec738;
+	border-radius: 10px;
+}
+
+
+.borders-blue{
+	border: 4px solid #2772d8;
+	background-color: #2772d8; 
+	border-radius: 10px
+	
+}
+
+.borders-red{
+	border: 4px solid #dc3523;
+	background-color: #dc3523; 
+	border-radius: 10px
+	
+}
+
+.borders-yellow{
+	border: 4px solid #eaee0e;
+	background-color: #eaee0e; 
+	border-radius: 10px
+	
+}
+
+
+.only-borders-yellow{
+	border: 4px solid #eaee0e;
+	border-radius: 10px
+
+}
+
+.zoom {
+  transition: transform .2s;
+  border-radius: 10px
+}
+
+.zoom:hover {
+
+  transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.borders-black{
+   border: 1px solid black; 
+	border-radius: 10px
+}
+
+.text-b{
+	font-size: 120%;
+	
+}
+
+.text-bold{
+	font-weight: bold;
+	font-size: 140%;
+}
+
+.roboto{
+	font-size: 200%;
+	font-family: 'Roboto Slab', serif;
+}
+
+.special-margins{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.width-45{
+	width: 40%;
+
+}
+
+.width-80{
+	width: 70%;
+}
+
+.width-55{
+	width: 58%;
+	text-align: right;
+}
+
+
+.space-around{
+	justify-content: space-around;
+}
+
+.adjust-image{
+	width: 1.5rem;
+	height: auto;
+	margin: 0.3rem;
+}
+
+.change-column{
+	display: grid;
+	grid-template-columns: 20% 80%
+}
+
+.new-image-size{
+    height: auto;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+    .change-column{
+    	display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.border{
+ border: 2.5px solid #dee2e6!important;
+}
+
+.width-rem{
+	width: 1.9rem;
+	height: auto;
+	margin: 0.5rem;
+}
