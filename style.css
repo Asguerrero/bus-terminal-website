@@ -323,6 +323,16 @@ padding: 10px;
 
 }
 
+@media only screen and (max-width: 1000px){
+    body{
+    	font-size: 200%;
+    }
+    .btn-search{
+    	font-size: 100%;
+    }
+
+}
+
 .border{
  border: 2.5px solid #dee2e6!important;
 }
