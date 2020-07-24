@@ -70,6 +70,10 @@ body{
 	
 }
 
+.width-card{
+	width: 18rem;
+	height: 30rem;
+}
 
 @media only screen and (max-width: 1200px){
     .news-grid{
@@ -79,6 +83,11 @@ body{
 		justify-content: center;
 		justify-items: center;
     }
+
+    .width-card{
+	width: 100%;
+	height: auto;
+}
 
 }
 
@@ -132,7 +141,7 @@ padding: 10px;
 }
 
 .logo-size{
-	height: 100px;
+	height: 12rem;
 	width:auto;
 
 }
@@ -330,6 +339,14 @@ padding: 10px;
     .btn-search{
     	font-size: 100%;
     }
+    .logo-grid{
+	display: grid;
+	grid-template-rows: 50% 30% 20%;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+
+}
 
 }
 
@@ -341,4 +358,19 @@ padding: 10px;
 	width: 1.9rem;
 	height: auto;
 	margin: 0.5rem;
+}
+
+
+.width-image-news{
+	width: auto;
+	height: 20rem;
+}
+
+.tittle-bold{
+	font-weight: bold;
+	font-size: 180%;
+}
+
+.full-width{
+	width: 100%;
 }
