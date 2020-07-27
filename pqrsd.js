@@ -26,7 +26,16 @@ function send_data(){
 		  }
 		}).then(res => res.json())
 		.catch(error => alert("Hubo un problema con el envio del formulario. Por favor intentelo de nuevo") )
-		.then(response => alert("Se ha enviado su formulario con exito"));
+		.then(function(response) {
+			
+    		if(response.id){
+    			alert("Su formulario ha sido enviado con exito");
+    		}
+    		else{
+    			alert("Hubo un problema con el envio del formulario. Por favor intentelo de nuevo")
+    		}
+    		})
+		.catch(error => alert("Hubo un problema con el envio del formulario. Por favor intentelo de nuevo") )
 
 	}
 
