@@ -389,6 +389,15 @@ padding: 20px;
     font-size: 120%;
 }
 
+.options-grid{
+	grid-template-columns: repeat(auto-fill, minmax(210px, 800px));
+}
+
+			
+.change-width{
+width: 85%;
+}
+
 
 }
 
