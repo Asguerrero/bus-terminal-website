@@ -407,6 +407,10 @@ width: 85%;
 	width: 5.5rem;
 }
 
+.form-control{
+	font-size: 2.2rem;
+}
+
 
 }
 
@@ -486,15 +490,6 @@ p{
 	width: 20rem;
 }
 
-.header {
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
-    font-size: 10px;
-    color: #36A0FF;
-}
 
 .form-width{
 	width: 60%;

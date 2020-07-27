@@ -107,22 +107,22 @@
 				<form >
 				  <div class="form-group">
 				    <label for="exampleFormControlInput1">Nombre</label>
-				    <input type="text" class="form-control">
+				    <input type="text" class="form-control" id="nameInput">
 				  </div>
 
 				  <div class="form-group">
 				    <label for="exampleFormControlInput1">Apellidos</label>
-				    <input type="text" class="form-control">
+				    <input type="text" class="form-control" id="lastNameInput">
 				  </div>
 
 				  <div class="form-group">
 				    <label for="exampleFormControlInput1">Correo electronico</label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+				    <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com">
 				  </div>
 				 
 				  <div class="form-group">
 				    <label for="exampleFormControlSelect1">Tipo de PQRSD</label>
-				    <select class="form-control" id="exampleFormControlSelect1">
+				    <select class="form-control" id="typeInput">
 				      <option>Peticion</option>
 				      <option>Queja</option>
 				      <option>Reclamo</option>
@@ -134,10 +134,10 @@
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleFormControlTextarea1">Mensaje</label>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				    <textarea class="form-control" id="messageInput" rows="3"></textarea>
 				  </div>
 
-				  <button type="button" class="btn btn-warning">Enviar</button>
+				  <button type="button" class="btn btn-warning" id="buttonSubmit">Enviar</button>
 			</form>
 
 		</div>
@@ -192,7 +192,7 @@
 	
 		
 	</footer>
-
+	<script type="text/javascript" src="pqrsd.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
