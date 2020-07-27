@@ -329,6 +329,11 @@ padding: 20px;
 	width: 90%;
 }
 
+.footer-img{
+	width: 4rem;
+	height: auto;
+}
+
 @media only screen and (max-width: 1000px){
     .change-column{
     	display: flex;
@@ -398,6 +403,10 @@ padding: 20px;
 width: 85%;
 }
 
+.footer-img{
+	width: 5.5rem;
+}
+
 
 }
 
@@ -455,10 +464,7 @@ p{
 
 }
 
-.footer-img{
-	width: 4rem;
-	height: auto;
-}
+
 
 .test-margin{
 	margin-right: 90%;
@@ -474,4 +480,22 @@ p{
 
 .left-margin{
 	margin-left: 340px;
+}
+
+.test{
+	width: 20rem;
+}
+
+.header {
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 10px;
+    color: #36A0FF;
+}
+
+.form-width{
+	width: 60%;
 }
