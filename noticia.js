@@ -1,4 +1,4 @@
-const host ='http://localhost:1337';
+const host ='https://terminalvillagarzon.herokuapp.com';
 
 function createNewsCard(tittleText, descriptionText, imageURL, index){
 let main_div = document.getElementById('news-main-div');
@@ -17,12 +17,13 @@ let main_div = document.getElementById('news-main-div');
 
 
  let image = document.createElement('img');
- image.src = host.concat(imageURL)
+ image.src = imageURL;
  image.classList.add('new-image-size');
  thirdDiv_2.appendChild(image);
 
 
 let tittle =  document.createElement('h5');
+tittle.classList.add("card-title", 'footer-bold');
 let setTittleText = document.createTextNode(tittleText);
 tittle.appendChild(setTittleText);
 

@@ -11,13 +11,15 @@
 </head>
 <body>
 	<nav class="expand nav-margins nav-flex flex-wrap logo-grid">
-		<img src="./Images/logo.jpeg" class="logo-size" alt="...">
+		<a href="index.html">
+			<img src="./Images/logo.jpeg" class="logo-size" alt="...">
+		</a>
 		<div class="title">Terminal de Transportes de Villagarzon S.A</div>
-		<div>Telefono: +57 315 545 7974</div>
+		<div class="center-div">Telefono: +57 315 545 7974</div>
 	</nav>
 
 
-		<nav class="navbar navbar-expand-lg navbar-light main-orange nav-margins">
+		<nav class="navbar navbar-expand-lg navbar-light main-orange main-div-margins">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -34,10 +36,8 @@
 		          Nosotros
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">Something else here</a>
+		          <a class="dropdown-item" href="#">Historia</a>
+		          <a class="dropdown-item" href="#">Mision y Vision</a>
 		        </div>
 		      </li>
 
@@ -49,8 +49,8 @@
 		        <a class="nav-link btn-margin text-b" href="rutas.html">
 		          Rutas
 		        </a>
-		        
 		      </li>
+
 		      <li class="nav-item dropdown main-orange">
 		      	<div class="border-green">
 		      		</div>
@@ -60,26 +60,22 @@
 		          Servicios
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="guia-pasajero.html">Guia del pasajero</a>
+		          <a class="dropdown-item" href="preguntas-frecuentes.html">Preguntas frecuentes</a>
 		          <a class="dropdown-item" href="#">Ofertas de arrendamiento</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
 		        </div>
 		      </li>
+
 		      <li class="nav-item dropdown main-orange">
 		      	<div class="border-yellow">
 		      		</div>
 		      	<div class="border-white">
 		      		</div>
-		        <a class="nav-link dropdown-toggle btn-margin text-b" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		        <a class="nav-link btn-margin text-b" href="turismo.html">
 		          Turismo
 		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
 		      </li>
+
 		      <li class="nav-item dropdown main-orange">
 		      	<div class="border-blue">
 		      		</div>
@@ -89,10 +85,8 @@
 		          Contacto
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">Something else here</a>
+		          <a class="dropdown-item" href="#">Peticiones, quejas y reclamos</a>
+		          <a class="dropdown-item" href="contacto.html">Contactenos</a>
 		        </div>
 		      </li>
 
@@ -104,13 +98,13 @@
 	<div id="carouselExampleControls" class="carousel slide main-div-margins" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active  img-container center-text">
-	      <img src="./Images/prueba1.jpg" class="image-size" alt="...">
+	      <img src="" class="image-size" alt="..." id="firstMainImage">
 	    </div>
 	    <div class="carousel-item img-container center-text">
-	      <img src="./Images/prueba2.jpg" class="image-size" alt="...">
+	      <img src="" class="image-size" alt="..." id="secondMainImage">
 	    </div>
 	    <div class="carousel-item img-container center-text">
-	      <img src="./Images/prueba3.jpg" class="image-size" alt="...">
+	      <img src="" class="image-size" alt="..." id="thirdMainImage">
 	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -139,7 +133,7 @@
 					
 				</div>
 				<div  class=" borders-yellow zoom">
-					<a class="dropdown-item center-text text-b" href="#">Mapas del Terminal
+					<a class="dropdown-item center-text text-b" href="mapas.html">Mapas del Terminal
 						<img src="./Images/mapa.png">
 					</a>
 					
@@ -159,9 +153,9 @@
 						<img src="./Images/bus-icon.png" class="special-margins">
 					</div>
 					<div class="half-40 main-orange organize-column rounded-right"> 
-						<a class="btn btn-search zoom borders-black" href="rutas.html" role="button">Buscar por destino</a>
-						<a class="btn btn-search zoom borders-black" href="rutas.html" role="button">Buscar por empresa</a>
-						<input class="btn-search"type="text" id="lname" name="lname">
+						<a class="btn btn-search zoom borders-black" href="rutas.html?destino" role="button">Buscar por destino</a>
+						<a class="btn btn-search zoom borders-black" href="rutas.html?empresa" role="button">Buscar por empresa</a>
+					
 					</div>
 				
 			</div>
@@ -216,10 +210,50 @@
 			
 	</div>
 
-	<footer class="expand main-orange">
-		Terminal de Villagarzon
-		<a href="https://icons8.com/icons/">Icons</a>
+	<footer class="expand main-orange center-text ">
+		<div class="flex-wrap space-around change-to-grid">
+		<div class="footer-margins">
+			<div class="footer-bold border-black-bottom">
+				Siguenos 
+			</div>
+			<img src="./Images/youtube.png" class="footer-img">
+			<img src="./Images/facebook.png" class="footer-img">
+		</div>
+
+
+		<div class="footer-margins">
+			<div class="footer-bold border-black-bottom">
+				Visitanos 
+			</div>
+			Horario de atencion: 8:00am a 2:00pm <br>
+			Vda el porvenir, km 2, vía Puerto Asís
+
+		</div>
+
+		<div class="footer-margins">
+			<div class="footer-bold border-black-bottom">
+				Contactanos 
+			</div>
+			+57 315 545 7974
+		</div>
+		</div>
+
+
+		<div class="flex-wrap flex-end "> 
+			<div class="smalltext">
+				<img src="./Images/all-rights-reserved.png">
+				Terminal de Transportes de Villagarzon. Todos los derechos reservados
+			</div>
+			<div class="smalltext left-margin">
+				Icons by
+				<a href="https://icons8.com/icons/">Icons8</a>
+			</div>
+
+		</div>
+	
+		
 	</footer>
+
 	<script type="text/javascript" src="mainjava.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
