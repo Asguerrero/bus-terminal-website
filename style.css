@@ -26,6 +26,10 @@ body{
 
 }
 
+.logo-grid{
+	flex-direction: row;
+}
+
 .image-size{
 	height: 400px;
 	width:auto;
@@ -94,6 +98,10 @@ body{
 .video-display{
 	display: flex;
 	justify-content: center;
+}
+
+.logo-bottom-margings{
+	margin: 1rem 0rem;
 }
 
 
@@ -299,6 +307,16 @@ padding: 20px;
 
 }
 
+.grid-nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	
+}
+
+
 .width-80{
 	width: 70%;
 }
@@ -357,7 +375,7 @@ padding: 20px;
     }
     .logo-grid{
 	display: grid;
-	grid-template-rows: 60% 30% 10%;
+	grid-template-rows: 50% 25% 15% 10%;
 	align-items: center;
 	justify-content: center;
 	justify-items: center;
@@ -398,6 +416,10 @@ padding: 20px;
 	grid-template-columns: repeat(auto-fill, minmax(210px, 800px));
 }
 
+.logo-bottom-margings{
+	margin: 0rem 0rem;
+}
+
 			
 .change-width{
 width: 85%;
@@ -409,6 +431,14 @@ width: 85%;
 
 .form-control{
 	font-size: 2.2rem;
+}
+
+.grid-nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+		
 }
 
 
@@ -494,3 +524,29 @@ p{
 .form-width{
 	width: 60%;
 }
+
+.margin-left-guia{
+	margin-left: 1rem;
+}
+
+.margin-left-logo{
+	margin-left: 2rem;
+}
+
+.text-justify{
+	 text-align: justify;
+}
+
+.flew-row{
+	flex-direction: row;
+}
+
+.historia-image{
+	width: 45%;
+}
+
+.super-transporte{
+	width: 14rem;
+}
+
+
